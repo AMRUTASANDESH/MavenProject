@@ -39,7 +39,6 @@ public class BaseClass {
 	public void DataTearDown() throws IOException
 	{
 		wbook.close();
-		driver.close();
 		report.flush();
 		report.close();
 	}
