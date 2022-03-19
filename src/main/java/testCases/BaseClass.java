@@ -48,7 +48,8 @@ public class BaseClass {
 	@BeforeMethod
 	public void SetUp() {
 		test= report.startTest("LoginFaliureTest","failure testcse");
-		System.setProperty("webdriver.chrome.driver", "/home/amruta/Desktop/automation_simplie_learn/chromedriver_linux64_new/chromedriver");
+		String systemPath= System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",systemPath+ "/Resources/chromedriver");
 		//System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		
 		driver = new ChromeDriver();
