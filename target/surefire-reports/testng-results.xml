@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14735" started-at="2022-03-13T11:55:09 IST" finished-at="2022-03-13T11:55:23 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14735" started-at="2022-03-13T11:55:09 IST" finished-at="2022-03-13T11:55:23 IST">
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="DataSetUp()[pri:0, instance:testCases.LoginTest@30a3107a]" name="DataSetUp" is-config="true" duration-ms="1799" started-at="2022-03-13T11:55:09 IST" finished-at="2022-03-13T11:55:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetUp -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:testCases.LoginTest@30a3107a]" name="SetUp" is-config="true" duration-ms="2755" started-at="2022-03-13T11:55:10 IST" finished-at="2022-03-13T11:55:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LoginFailiureTest()[pri:0, instance:testCases.LoginTest@30a3107a]" name="LoginFailiureTest" duration-ms="9827" started-at="2022-03-13T11:55:13 IST" finished-at="2022-03-13T11:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFailiureTest -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:testCases.LoginTest@30a3107a]" name="TearDown" is-config="true" duration-ms="75" started-at="2022-03-13T11:55:23 IST" finished-at="2022-03-13T11:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="DataTearDown()[pri:0, instance:testCases.LoginTest@30a3107a]" name="DataTearDown" is-config="true" duration-ms="251" started-at="2022-03-13T11:55:23 IST" finished-at="2022-03-13T11:55:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataTearDown -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
